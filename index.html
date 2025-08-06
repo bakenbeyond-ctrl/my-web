@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bake & Beyond - Premium Home Made Cakes</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section with Image Slider -->
+        <header class="header">
+            <!-- Background Image Slider -->
+            <div class="slider-container">
+                <div class="slide active" style="background-image: url('assets/plain_cake.webp')"></div>
+                <div class="slide" style="background-image: url('assets/date_walnut.webp')"></div>
+                <div class="slide" style="background-image: url('assets/banana_bread.webp')"></div>
+                <div class="slide" style="background-image: url('assets/marble_cake.jpeg')"></div>
+                
+                <!-- Slider Navigation Dots -->
+                <div class="slider-nav">
+                    <span class="nav-dot active" data-slide="0"></span>
+                    <span class="nav-dot" data-slide="1"></span>
+                    <span class="nav-dot" data-slide="2"></span>
+                    <span class="nav-dot" data-slide="3"></span>
+                </div>
+            </div>
+            
+            <!-- Header Content Overlay -->
+            <div class="header-overlay">
+                <div class="logo-container">
+                    <img src="assets/logo.png" alt="Bake & Beyond Logo" class="logo" id="logo">
+                </div>
+                <h1 class="brand-name">Bake & Beyond</h1>
+                <p class="tagline">Homemade goodness</p>
+                <div class="social-link">
+                    <a href="https://www.instagram.com/baken.beyond/" target="_blank" class="instagram-link">
+                        <i class="fab fa-instagram"></i>
+                        Follow us on Instagram
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <!-- Menu Section -->
+        <main class="menu-section">
+            <h2 class="menu-title">Our Menu</h2>
+            
+            <div class="menu-grid">
+                <!-- Plain Cake -->
+                <div class="menu-item">
+                    <div class="item-image">
+                        <img src="assets/plain_cake.webp" alt="Plain Cake">
+                        <div class="image-overlay"></div>
+                    </div>
+                    <div class="item-content">
+                        <h3 class="item-name">Plain Cake</h3>
+                        <p class="item-description">Classic vanilla sponge cake with smooth buttercream frosting</p>
+                        <div class="pricing">
+                            <div class="price-option">
+                                <span class="size">Medium</span>
+                                <span class="price">Rs. 600</span>
+                            </div>
+                            <div class="price-option">
+                                <span class="size">Small</span>
+                                <span class="price">Rs. 400</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Date and Walnut Cake -->
+                <div class="menu-item">
+                    <div class="item-image">
+                        <img src="assets/date_walnut.webp" alt="Date and Walnut Cake">
+                        <div class="image-overlay"></div>
+                    </div>
+                    <div class="item-content">
+                        <h3 class="item-name">Date & Walnut Cake</h3>
+                        <p class="item-description">Rich, moist cake loaded with dates and crunchy walnuts</p>
+                        <div class="pricing">
+                            <div class="price-option">
+                                <span class="size">Medium</span>
+                                <span class="price">Rs. 700</span>
+                            </div>
+                            <div class="price-option">
+                                <span class="size">Small</span>
+                                <span class="price">Rs. 500</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Banana Bread Cake -->
+                <div class="menu-item">
+                    <div class="item-image">
+                        <img src="assets/banana_bread.webp" alt="Banana Bread Cake">
+                        <div class="image-overlay"></div>
+                    </div>
+                    <div class="item-content">
+                        <h3 class="item-name">Banana Bread Cake</h3>
+                        <p class="item-description">Soft, aromatic cake made with ripe bananas and warm spices</p>
+                        <div class="pricing">
+                            <div class="price-option">
+                                <span class="size">Medium</span>
+                                <span class="price">Rs. 650</span>
+                            </div>
+                            <div class="price-option">
+                                <span class="size">Small</span>
+                                <span class="price">Rs. 450</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Marble Cake -->
+                <div class="menu-item">
+                    <div class="item-image">
+                        <img src="assets/marble_cake.jpeg" alt="Marble Cake">
+                        <div class="image-overlay"></div>
+                    </div>
+                    <div class="item-content">
+                        <h3 class="item-name">Marble Cake</h3>
+                        <p class="item-description">Beautiful swirled vanilla and chocolate cake with perfect marble pattern</p>
+                        <div class="pricing">
+                            <div class="price-option">
+                                <span class="size">Medium</span>
+                                <span class="price">Rs. 630</span>
+                            </div>
+                            <div class="price-option">
+                                <span class="size">Small</span>
+                                <span class="price">Rs. 430</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="delivery-notice">
+                <i class="fas fa-truck"></i>
+                <p>All prices are exclusive of delivery charges</p>
+            </div>
+            <div class="contact-info">
+                <p>Made with <i class="fas fa-heart"></i> by Bake & Beyond</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
